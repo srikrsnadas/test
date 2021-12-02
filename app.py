@@ -1,9 +1,7 @@
 import streamlit as st
-pip install streamlit 
-pip install matplotlib 
-pip install mplfinance 
-pip install plotly
-pip install git+https://github.com/StreamAlpha/pynse.git
+
+import pynse git+https://github.com/StreamAlpha/pynse.git
+
 try:
     from pynse import *
     import datetime
