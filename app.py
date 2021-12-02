@@ -18,7 +18,7 @@ try:
     #st.code(
     #    "pip install streamlit matplotlib mplfinance plotly git+https://github.com/StreamAlpha/pynse.git"
     #)
-else:
+#else:
     nse = Nse()
 
     def bhavcopy_display():
