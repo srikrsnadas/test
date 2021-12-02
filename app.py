@@ -1,6 +1,6 @@
 import streamlit as st
 
-import pynse git+https://github.com/StreamAlpha/pynse.git
+#import pynse git+https://github.com/StreamAlpha/pynse.git
 
 try:
     from pynse import *
@@ -10,14 +10,14 @@ try:
     import plotly.express as px
 
 
-except ModuleNotFoundError as e:
-    st.error(
-        f"Looks like requirements are not installed: '{e}'. Run the following command to install requirements"
-    )
+#except ModuleNotFoundError as e:
+    #st.error(
+    #    f"Looks like requirements are not installed: '{e}'. Run the following command to install requirements"
+   # )
 
-    st.code(
-        "pip install streamlit matplotlib mplfinance plotly git+https://github.com/StreamAlpha/pynse.git"
-    )
+    #st.code(
+    #    "pip install streamlit matplotlib mplfinance plotly git+https://github.com/StreamAlpha/pynse.git"
+    #)
 else:
     nse = Nse()
 
