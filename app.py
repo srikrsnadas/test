@@ -1,5 +1,5 @@
 import streamlit as st
-
+pip install streamlit matplotlib mplfinance plotly git+https://github.com/StreamAlpha/pynse.git
 try:
     from pynse import *
     import datetime
